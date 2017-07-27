@@ -18,6 +18,7 @@ variable "bosh_type" {
 variable "aws_centos_ami" {
     default = {
         us-east-1 = "ami-00a11e68"
+        us-east-2 = "ami-46c1b650"
         us-west-1 = "ami-ba3c3bff"
         us-west-2 = "ami-3425be04"
         ap-northeast-1 = "ami-9392dc92"
@@ -30,7 +31,8 @@ variable "aws_centos_ami" {
 
 variable "aws_ubuntu_ami" {
     default = {
-        us-east-1 = "ami-98aa1cf0"
+        us-east-1 = "ami-ae6272b8"
+        us-east-2 = "aki-da055ebf"
         us-west-1 = "ami-736e6536"
         us-west-2 = "ami-37501207"
         ap-northeast-1 = "ami-df4b60de"
